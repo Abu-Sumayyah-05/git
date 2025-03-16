@@ -1,69 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charse"UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Young</title>
     <style>
+        @media (max-width: 3000px){
         body{
-            background-color: aliceblue;
-        }
+          background-color: aliceblue;
+        } 
+        
         nav{
+            position: fixed;
+            top: 0;
             display: flex;
             background-color: white;
             padding: 50px;
             margin-top: 0;
+            width: 100%;
             h1{
-                position: absolute;
+                position: fixed;
                 top: 10px;
                 color: green;
                 font-size: 35px;
                 font-style:oblique;
             }
             .home{
-                position: absolute;
-                top: 5px;
-                color: white;
+                position: fixed;
+                top: 0;
+                color: rgb(58, 15, 15);
                 height: 5px;
                 left: 600px;
                 font-size: 22px; 
+                text-align: center;
                 a{
                 text-decoration: none;
                 color: black;
-                /* font-weight: lighter; */
-                margin: 5px;
+                margin-right: 16px;
+                gap: 5px;
                 transform: translate(0,0,40px);
+                text-align: center;
                 }
                 button{
-                    height: 20px;
-                    width: 90px;
-                    border-radius: 10px;
+                     position: fixed;
+                     top: 28px;
+                     right: 0;
+                     height: 70px;
+                    width: 150px;
+                    border-radius: 30px;
                     background-color: purple;
-                    margin: 12px;
+                    margin-left: 290px;
                     a{
                         color: white;
-                    }
+                        font-size: 16px;
+                    }   
 
- 
-                    /* position: absolute;
-                    right: 0px;
-                    top: 40px; */
                 }
-            /* }
-            .about{   
-                position: absolute;
-                left: 870px;
-                a{
-                font-size: 25px;
-                text-decoration: none;
-                color: black;
-                font-weight: lighter;
-                }
-              
-            }     */
-            
+             
         }
     }
+    .first{
+        display: flex;
+        position:absolute;
+        top: 25%;
+        left: 70px;
+        background-color: rgb(27, 171, 238);
+        width:90% ;
+        height: 40%;
+        text-align: center;
+        h3{
+            position: absolute;
+            top: 40px;
+            left: 330px;
+            color: orangered;
+            text-align: center;
+            font-size: 32px;
+            /* transform: translate(300px, 40px); */
+        }
+        p{
+            position: absolute;
+            top: 190px;
+            left: 470px;
+            font-size: 15px;
+            color: orangered;
+        }
+    }
+    h4{
+        position: absolute;
+        top: 70%;
+        color: orangered;
+        font-size: 40px;
+    }
+    #inline{
+        position: absolute;
+        top: 88%;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    /* #inline{
+        position: absolute;
+        top: 84.7%;
+        left: 250px;
+        font-size: 25px;
+    }
+    #second{
+        position: absolute;
+        top: 90%;
+    } */
+    #img1{
+        position: absolute;
+        left: 90px;
+        top: 900px;
+        width: 90%;
+        height: 70%;
+    }
+    #empower{
+        position: absolute;
+        top: 1600px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+
     </style>
 </head>
 <body>
@@ -71,16 +129,37 @@
      <h1>Youthup</h1>
      <nav class="home">
         <a href="">Home</a>
-        <a href="">About us </a>
+        <a href="">Aboutus </a>
         <a href="">Programs/projects</a>
-        <a href="">Our advocacy</a>
+        <a href="">Ouradvocacy</a>
         <a href="">scholarhip</a>
-        <a href="">Media and events</a>
+        <a href="">Mediaandevents</a>
          <button>
             <a href="">VISIT UTIDIA</a>
          </button>
-
      </nav>
     </nav>
+   <div class="first">
+    <h3>Young Females in STEM (YFSTEM)- HERSTEM AFRICA</h3>
+    <p>Empowering Africa`s Future Female Innovators, One girl at a Time</p>
+   </div> 
+   <h4>About us </h4>
+   <p id="inline"> HERSTEM AFRICA is a ground breaking initiative under Young
+    Females in STEM, YouthUp Global, designed to transform
+    the narrative for young african females in STEM.
+    This program champions innovation, breaks barriers, and builds 
+    a future where girls do not just participate in STEm, they lead.
+   </p>
+   <div>
+    <img id="img1" src="/images/download.jpg" alt="">
+    <p id="empower">We empower young women with the skills, opportunities, and confidence to become trailblazers in STEM.
+        Through mentorship, hands-on training, and a community that amplifies
+        their voice, HERSTEM Africa nutures next generation of thinkers, creators, and leaders. When we empower her,
+        we empower the world 
+    </p>
+   </div>
+  
+
+   
 </body>
 </html>
